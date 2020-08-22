@@ -21,9 +21,7 @@ img {
 }
 
 /* Desktop screens (Desktop only) */
-@media screen
-and (min-device-width: 1200px)
-and (max-device-width: 1920px) {
+@media screen and (min-device-width: 1200px) and (max-device-width: 1920px) {
     .img-container {
         height: unset;
         width: 800px;
@@ -35,3 +33,16 @@ and (max-device-width: 1920px) {
     }
 }
 
+.box {
+    background: #f3f3f3;
+    border:1px #333 solid;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.title{
+    display: flex;
+    font-family: monospace;
+    margin-left: 5px;
+}
