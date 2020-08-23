@@ -40,7 +40,12 @@ img {
     font-size: 14px;
     font-weight: 700;
 }
-
+.shadow{
+    box-shadow: 0px 20px 40px 11px rgb(67 66 66);
+    border: 1px solid;
+   
+   
+}
 .title{
     display: flex;
     font-family: monospace;
