@@ -14,7 +14,7 @@ img {
 }
 
 .img-container {
-    height: 450px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,7 +24,7 @@ img {
 @media screen and (min-device-width: 1200px) and (max-device-width: 1920px) {
     .img-container {
         height: unset;
-        width: 800px;
+        width: 1000px;
         flex-direction: row;
     }
 
