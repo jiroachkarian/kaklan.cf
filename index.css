@@ -20,6 +20,38 @@ img {
     justify-content: space-between;
 }
 
+/* The alert box*/
+.alert {
+    height: 60px;
+    margin-bottom: 5px;
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+  .closebtn {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .closebtn:hover {
+    color: black;
+  }
+
+p{
+      font-family: monospace;
+      flex-direction: column;
+  }
+
 /* Desktop screens (Desktop only) */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1920px) {
     .img-container {
@@ -51,3 +83,4 @@ img {
     font-family: monospace;
     margin-left: 5px;
 }
+

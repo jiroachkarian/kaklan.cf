@@ -11,15 +11,19 @@
     <meta property="og:description" content="A fun project by Jiro & Kevin"/>
     <meta property="og:image" content="https://creepyface.io/logo.png"/>
 
+    
+
     <title>Mind your business</title>
     <script src="https://creepyface.io/creepyface.js"></script>
     <link rel="stylesheet" href="index.css">
     <script src="https://creepyface.io/creepyface-firefly.js"></script>
 
-
-
-
- 
+    <div>
+        <div class="alert">
+       <span class="closebtn">&times;</span> 
+     <p style="text">Wanna see something cool, TOUCH the screen and MOVE your finger around the pictures  </p> 
+   </div>
+   </div>
 
 </head>
 
@@ -59,8 +63,19 @@
          data-src-look-270="img/kevin/270.png" data-src-look-315="img/kevin/315.png"/>
     </div>
 
-    
-</div>
+    <script>
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+        
+        for (i = 0; i < close.length; i++) {
+          close[i].onclick = function(){
+            var div = this.parentElement;
+            div.style.opacity = "0";
+            setTimeout(function(){ div.style.display = "none"; }, 600);
+          }
+        }
+        </script>
+
 </body>
 
 </html>
