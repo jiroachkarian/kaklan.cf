@@ -90,7 +90,12 @@ img {
 .box-flex {
   display: flex;
   align-items: center;
+}
 
+p {
+  font-family: monospace;
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 /* Desktop screens (Desktop only) */
@@ -130,5 +135,4 @@ img {
   height: 150px;
   display: flex;
   align-items: flex-start;
-
 }
