@@ -1,0 +1,15 @@
+sub,
+sup {
+    font-size: 75%;
+    position: unset;
+    line-height: unset;
+}
+
+.carousel-control-prev {
+    left: -80px;
+
+}
+
+.carousel-control-next {
+    right: -80px;
+}
