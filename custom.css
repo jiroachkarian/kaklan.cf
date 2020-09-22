@@ -13,3 +13,8 @@ sup {
 .carousel-control-next {
     right: -80px;
 }
+
+p {
+    margin-top: unset;
+    margin-bottom: unset;
+}
