@@ -7,7 +7,6 @@ sup {
 
 .carousel-control-prev {
     left: -80px;
-
 }
 
 .carousel-control-next {
@@ -17,4 +16,23 @@ sup {
 p {
     margin-top: unset;
     margin-bottom: unset;
+}
+
+.navbar {
+    margin-bottom: 15px;
+}
+
+.bg-light {
+    background-color: #bb7711 !important;
+}
+
+.btn-outline-success {
+    color: #ecca34;
+    border-color: #ecca34;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #ecca34 !important;
+    border-color: #ecca34;
 }
