@@ -87,13 +87,6 @@ p {
   padding-left: 5px;
 }
 
-/* Desktop screens (Desktop only) */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1920px) {
-  img {
-    max-width: 300px;
-  }
-}
-
 .box {
   background: #f3f3f3;
   border: 1px #333 solid;
@@ -112,4 +105,19 @@ p {
   display: flex;
   font-family: monospace;
   margin-left: 5px;
+}
+
+.carousel-width {
+  max-width: 135px;
+}
+
+/* Desktop screens (Desktop only) */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1920px) {
+  img {
+    max-width: 300px;
+  }
+
+  .carousel-width {
+    max-width: 300px;
+  }
 }
