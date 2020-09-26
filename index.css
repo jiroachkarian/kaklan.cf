@@ -103,6 +103,7 @@ p {
 
 .title {
   display: flex;
+  font-size: 10px;
   font-family: monospace;
   margin-left: 5px;
 }
@@ -119,5 +120,12 @@ p {
 
   .carousel-width {
     max-width: 300px;
+  }
+
+  .title {
+    display: flex;
+    font-size: 14px;
+    font-family: monospace;
+    margin-left: 5px;
   }
 }
