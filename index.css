@@ -112,6 +112,11 @@ p {
   max-width: 135px;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  visibility: hidden;
+}
+
 /* Desktop screens (Desktop only) */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1920px) {
   img {
@@ -120,6 +125,26 @@ p {
 
   .carousel-width {
     max-width: 300px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
   }
 
   .title {
