@@ -1,6 +1,10 @@
 .container img {
-    filter: brightness(50%);
+    opacity: 0.5;
+    z-index: 1;
+    position: relative;
+
 }
+
 
 body {
     background: radial-gradient(circle farthest-side at 0% 50%,
@@ -37,4 +41,9 @@ body {
 
 p {
     font-size: 14px;
+}
+
+.card-img-overlay {
+    z-index: 1;
+
 }
