@@ -32,7 +32,8 @@ body {
 }
 
 p {
-  font-size: 12px;
+  font-size: 12.5px;
+  letter-spacing: 0.5px;
 }
 
 .container img {
