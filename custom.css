@@ -27,15 +27,6 @@ p {
     background-color: #bb7711 !important;
 }
 
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 40px;
-        padding-left: 40px;
-        font-size: larger;
-        letter-spacing: 0.25rem;
-    }
-}
-
 .navbar-brand {
     font-size: 1.75rem;
     letter-spacing: 0.25rem;
@@ -45,4 +36,13 @@ a {
     color: white;
     text-decoration: none;
     background-color: transparent;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 40px;
+        padding-left: 40px;
+        font-size: larger;
+        letter-spacing: 0.25rem;
+    }
 }
