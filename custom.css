@@ -40,3 +40,9 @@ p {
     font-size: 1.75rem;
     letter-spacing: 0.25rem;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
