@@ -1,13 +1,3 @@
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  font-size: 62.5%;
-}
-
 body {
   background: radial-gradient(circle farthest-side at 0% 50%,
       #fb1 23.5%,
