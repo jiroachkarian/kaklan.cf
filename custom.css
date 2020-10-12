@@ -38,6 +38,30 @@ a {
     background-color: transparent;
 }
 
+
+.breadcrumb {
+    background-color: #bb7711;
+
+}
+
+.breadcrumb-item.active {
+    color: rgba(0,0,0,.9);
+     
+}
+
+.link{
+    color: rgba(0,0,0,.5);;
+  }
+
+  .link:hover{
+      color: rgba(0,0,0,.9);
+      text-decoration: none;
+  }
+
+  .breadcrumb-item+.breadcrumb-item::before {
+    color: black;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 40px;
