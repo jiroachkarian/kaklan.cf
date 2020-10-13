@@ -34,8 +34,12 @@ p {
 
 a {
     color: white;
-    text-decoration: none;
     background-color: transparent;
+}
+
+a:hover {
+    color: rgb(249 201 82); 
+    text-decoration: underline; 
 }
 
 
@@ -62,11 +66,26 @@ a {
     color: black;
 }
 
+/*for desktops*/
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 40px;
         padding-left: 40px;
         font-size: larger;
         letter-spacing: 0.25rem;
+    }
+}
+
+/*for phones*/
+@media (max-width: 600px){
+    p {
+        width: 150px;
+        font-size: 8px;
+        letter-spacing: 0.5px;
+    }
+
+    .h5, h5 {
+        font-size: 12px;
+        margin-bottom: 10px;
     }
 }
