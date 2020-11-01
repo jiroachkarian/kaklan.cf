@@ -109,8 +109,8 @@ p {
 }
 
 .carousel-width {
-  max-width: 135px;
-}
+    max-width: 135px;
+  }
 
 .carousel-control-next,
 .carousel-control-prev {
