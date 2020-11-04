@@ -76,17 +76,6 @@ a:hover {
     }
 }
 
-/*----------------------------------------------*/
-.carousel-item.active, .carousel-item .view {
-    height: 50vh!important;
-  }
-
-  .carousel-item img {
-    object-fit: cover;
-    width:100%!important;
-    height: 100% !important;
-  }
-
 
 
 /*for phones*/
