@@ -5,11 +5,11 @@ sup {
     line-height: unset;
 }
 
-.carousel-control-prev {
+#carouselExampleControls .carousel-control-prev {
     left: -80px;
 }
 
-.carousel-control-next {
+#carouselExampleControls .carousel-control-next {
     right: -80px;
 }
 
