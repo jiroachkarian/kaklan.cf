@@ -78,6 +78,12 @@ footer section {
     padding: 20px;
 }
 
+footer section.section-A {
+    align-items: center;
+    height: 440px;
+    overflow: hidden;
+}
+
 footer section.section-B {
     padding-top: 76px;
 }
