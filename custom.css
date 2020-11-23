@@ -78,6 +78,10 @@ footer section {
     padding: 20px;
 }
 
+footer section.section-B {
+    padding-top: 76px;
+}
+
 footer section .heading {
     display: inline-block;
 }
@@ -109,10 +113,20 @@ footer section .klist .heading {
     margin-bottom: 1em!important;
 }
 
-.UL {
+footer section ul li {
+    margin-top: 6px;
+    padding: 0;
+}
+
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+li {
+    width: 155px;
+    height: 19px;
 }
 
 
