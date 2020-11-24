@@ -123,13 +123,13 @@ footer section ul li {
     padding: 0;
 }
 
-ul {
+footer section ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+footer section li {
     width: 155px;
     height: 19px;
 }
