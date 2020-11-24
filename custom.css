@@ -93,12 +93,12 @@ footer section .heading {
 
 .section-A {
     background-color: rgb(225, 147, 2);
-    height: calc(40vh);
+    height: 40vh;
 }
 
 .section-B {
     background-color: rgb(118, 61, 0);
-    height: calc(60vh);
+    height: 60vh;
     padding: 40px;
 }
 
