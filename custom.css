@@ -160,4 +160,10 @@ footer section li {
         font-size: 12px;
         margin-bottom: 10px;
     }
+    /*footer*/
+    .section-B {
+        background-color: rgb(118, 61, 0);
+        padding: 40px;
+        height: auto;
+    }
 }
