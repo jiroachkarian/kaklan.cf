@@ -135,6 +135,13 @@ footer section li {
 }
 
 
+/*view port of the slider*/
+
+.p-h {
+    height: calc(100vh - 79px);
+}
+
+
 /*for desktops*/
 
 @media (min-width: 992px) {
