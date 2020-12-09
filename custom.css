@@ -78,11 +78,6 @@ footer section {
     padding: 20px;
 }
 
-footer section.section-A {
-    align-items: center;
-    overflow: hidden;
-}
-
 footer section.section-B {
     padding-top: 76px;
 }
@@ -97,7 +92,15 @@ footer section .heading {
     padding: 40px;
 }
 
-.grow {}
+footer .section-B>.klist.o-f {
+    width: 400px;
+    height: 100px;
+    display: flex;
+}
+
+footer .section-B>.klist.o-f.i-f {
+    justify-content: flex-start;
+}
 
 .content-f {
     font-family: 'Courier New', Courier, monospace;
