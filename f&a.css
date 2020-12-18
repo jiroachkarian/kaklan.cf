@@ -17,3 +17,7 @@ p {
     display: flex;
     justify-content: center;
 }
+
+.main {
+    min-height: calc(100vh - 79px);
+}
