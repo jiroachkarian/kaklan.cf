@@ -135,6 +135,10 @@ footer section .nav-link {
     color: rgba(0, 0, 0, .6);
 }
 
+.card {
+    flex-direction: row;
+}
+
 
 /*view port of the slider*/
 
