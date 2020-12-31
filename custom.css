@@ -42,8 +42,12 @@ a:hover {
     text-decoration: underline;
 }
 
+
+/*breadcrumb*/
+
 .breadcrumb {
     background-color: #bb7711;
+    display: inline-flex;
 }
 
 .breadcrumb-item.active {
@@ -142,7 +146,7 @@ footer section .nav-link {
 
 /*view port of the slider*/
 
-.p-h {
+.v-h {
     height: calc(100vh - 79px);
 }
 
