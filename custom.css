@@ -6,11 +6,11 @@ sup {
 }
 
 #carouselExampleControls .carousel-control-prev {
-    left: -80px;
+    left: 5rem;
 }
 
 #carouselExampleControls .carousel-control-next {
-    right: -80px;
+    right: 5rem;
 }
 
 p {
