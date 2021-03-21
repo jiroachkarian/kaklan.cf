@@ -150,6 +150,7 @@ footer section .nav-link {
 
 .v-h {
     height: calc(100vh - 79px);
+    overflow-x: hidden;
 }
 
 
