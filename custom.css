@@ -134,12 +134,21 @@ footer section ul {
 footer section li {
     width: 155px;
     height: 19px;
+    color: grey;
 }
 
 footer section .nav-link {
     padding: 0px;
-    color: rgba(0, 0, 0, .6);
+    color: rgb(24, 24, 24);
+    text-decoration: underline;
 }
+
+footer section .nav-link:hover {
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    text-decoration:underline wavy;
+}
+
 
 .card {
     flex-direction: row;
