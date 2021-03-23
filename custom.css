@@ -48,7 +48,9 @@ a:hover {
 /*breadcrumb*/
 
 .breadcrumb {
-    background-color: #bb7711;
+    color: #101010;
+    background-color: #fff;
+    border: 1px solid #6d6d6d;
     display: inline-flex;
 }
 
@@ -160,6 +162,18 @@ footer section .nav-link:hover {
 .v-h {
     height: calc(100vh - 79px);
     overflow-x: hidden;
+}
+
+/*view port of the Q&A container*/
+.container{
+    height: calc(100vh - 79px);
+}
+
+/*primary btns*/
+.btn-primary {
+    color: #101010;
+    background-color: #fff;
+    border-color: #6d6d6d;
 }
 
 
