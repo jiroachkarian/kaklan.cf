@@ -194,7 +194,7 @@ footer section .nav-link:hover {
 @media (max-width: 600px) {
     p {
         width: 150px;
-        font-size: 8px;
+        font-size: 14px;
         letter-spacing: 0.5px;
     }
     .h5,
