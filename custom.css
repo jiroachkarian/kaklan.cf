@@ -176,6 +176,24 @@ footer section .nav-link:hover {
     border-color: #6d6d6d;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #101010;
+    background-color: rgb(194, 194, 194);
+    border-color: #6d6d6d;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: rgb(194, 194, 194);
+    border-color: #6d6d6d;
+}
+
+.btn-primary.focus, .btn-primary:hover {
+    color: #fff;
+    background-color: rgb(194, 194, 194);
+    border-color: #6d6d6d;
+    box-shadow: 0 0 0 0.2rem rgb(194, 194, 194 / 50%);
+}
 
 /*for desktops*/
 
