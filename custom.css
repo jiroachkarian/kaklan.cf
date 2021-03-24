@@ -201,7 +201,7 @@ footer section .nav-link:hover {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 20px;
         padding-left: 20px;
-        font-size: smaller;
+        font-size: medium;
         letter-spacing: 0.25rem;
     }
 }
