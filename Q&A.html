@@ -88,8 +88,15 @@
         </div>
     </div>
 
-    
-    <input style="cursor: pointer; background: transparent; border: none !important;" id='btn_2' type='button' style='visibility:hidden' onclick="bleep.play()"/>
+    <div>
+        <input style="cursor: pointer; background: transparent; border: none !important;" id="ko" type='button' onclick="bleep.play()"/>
+
+    </div>
+
+    <div>
+        <input style="cursor: pointer; background: transparent; border: none !important;" id="ko" type='button' onclick="bap.play()"/>
+
+    </div>
 
  
 
@@ -144,8 +151,10 @@
 </script>
 
 <script>
-    var bleep = new Audio();
-    bleep.src = "ah.mp3";
+    var bleep = new Audio('treasure/ah.mp3');
+ 
+    var bap = new Audio('treasure/oh.mp3');
+
 </script>
 
 
