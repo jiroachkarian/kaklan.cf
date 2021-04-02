@@ -22,3 +22,14 @@ p {
 .c-h {
     height: 100vh
 }
+
+
+/*for phones*/
+
+@media (max-width: 600px) {
+    .card {
+        flex-direction: row;
+        overflow: scroll;
+        background-color: #7f8285;
+    }
+}
