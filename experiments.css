@@ -30,6 +30,5 @@ p {
     .card {
         flex-direction: row;
         overflow: scroll;
-        background-color: #7f8285;
     }
 }
