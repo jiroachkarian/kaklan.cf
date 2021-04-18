@@ -196,6 +196,11 @@ footer section .nav-link:hover {
     box-shadow: 0 0 0 0.2rem rgb(194, 194, 194 / 50%);
 }
 
+
+.pv{
+    text-shadow: rgb(0, 0, 0) 0px 0px 10px;
+}
+
 /*for desktops*/
 
 @media (min-width: 992px) {
