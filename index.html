@@ -50,9 +50,25 @@
   gtag('config', 'UA-195021742-1');
 </script>
 
+<script>
+
+
+// the title should change if someone go to another tab
+window.onfocus = function() {
+    document.title = "Homepage";
+}
+window.onblur = function () { 
+    document.title = 'Sneaking to other sites 😈'; 
+     	var message = ["HEY HEY HEYYY\n\I got yaaa!\n\Stay in my website.", " said Master Jiro"];
+      alert(message); 
+    }
+</script>
+
+
 </head>
 
 <body>
+<!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-0">
         <a class="navbar-brand" href="index.html"><img src="img/my logo/logo.png" style="max-width: 100px;" alt="kaklans logo" /></a>
         <button class="navbar-toggler btn-hover" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
