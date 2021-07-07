@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+}
+
+.wavy{
+    position: relative;
+  }
+
+.wavy span{
+    position: relative;
+    display: inline-block;
+    color: black;
+    animation: animate 1s ease-in-out infinite;
+    animation-delay: calc(.1s*var(--i))
+  }
+  
+  @keyframes animate{
+    0%{
+      transform: translateY(0px)
+    }
+    20%{
+      transform: translateY(-24px)
+    }
+    40%, 100%{
+      transform: translateY(0px)
+    }
+  }
